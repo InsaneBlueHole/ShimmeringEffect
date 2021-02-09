@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E772630425D3123D0082DAEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772630325D3123D0082DAEE /* AppDelegate.swift */; };
+		E772630625D3123D0082DAEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772630525D3123D0082DAEE /* SceneDelegate.swift */; };
+		E772630825D3123D0082DAEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772630725D3123D0082DAEE /* ContentView.swift */; };
+		E772630B25D3123D0082DAEE /* ShimmeringEffect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E772630925D3123D0082DAEE /* ShimmeringEffect.xcdatamodeld */; };
+		E772630D25D3123E0082DAEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E772630C25D3123E0082DAEE /* Assets.xcassets */; };
+		E772631025D3123E0082DAEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E772630F25D3123E0082DAEE /* Preview Assets.xcassets */; };
+		E772631325D3123E0082DAEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E772631125D3123E0082DAEE /* LaunchScreen.storyboard */; };
+		E772631E25D3123E0082DAEE /* ShimmeringEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772631D25D3123E0082DAEE /* ShimmeringEffectTests.swift */; };
+		E772632925D3123E0082DAEE /* ShimmeringEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772632825D3123E0082DAEE /* ShimmeringEffectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E772631A25D3123E0082DAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77262F825D3123D0082DAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77262FF25D3123D0082DAEE;
+			remoteInfo = ShimmeringEffect;
+		};
+		E772632525D3123E0082DAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77262F825D3123D0082DAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77262FF25D3123D0082DAEE;
+			remoteInfo = ShimmeringEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E772630025D3123D0082DAEE /* ShimmeringEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmeringEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E772630325D3123D0082DAEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E772630525D3123D0082DAEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E772630725D3123D0082DAEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E772630A25D3123D0082DAEE /* ShimmeringEffect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShimmeringEffect.xcdatamodel; sourceTree = "<group>"; };
+		E772630C25D3123E0082DAEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E772630F25D3123E0082DAEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E772631225D3123E0082DAEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E772631425D3123E0082DAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E772631925D3123E0082DAEE /* ShimmeringEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimmeringEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E772631D25D3123E0082DAEE /* ShimmeringEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmeringEffectTests.swift; sourceTree = "<group>"; };
+		E772631F25D3123E0082DAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E772632425D3123E0082DAEE /* ShimmeringEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimmeringEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E772632825D3123E0082DAEE /* ShimmeringEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmeringEffectUITests.swift; sourceTree = "<group>"; };
+		E772632A25D3123E0082DAEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77262FD25D3123D0082DAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E772631625D3123E0082DAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E772632125D3123E0082DAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77262F725D3123D0082DAEE = {
+			isa = PBXGroup;
+			children = (
+				E772630225D3123D0082DAEE /* ShimmeringEffect */,
+				E772631C25D3123E0082DAEE /* ShimmeringEffectTests */,
+				E772632725D3123E0082DAEE /* ShimmeringEffectUITests */,
+				E772630125D3123D0082DAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E772630125D3123D0082DAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E772630025D3123D0082DAEE /* ShimmeringEffect.app */,
+				E772631925D3123E0082DAEE /* ShimmeringEffectTests.xctest */,
+				E772632425D3123E0082DAEE /* ShimmeringEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E772630225D3123D0082DAEE /* ShimmeringEffect */ = {
+			isa = PBXGroup;
+			children = (
+				E772630325D3123D0082DAEE /* AppDelegate.swift */,
+				E772630525D3123D0082DAEE /* SceneDelegate.swift */,
+				E772630725D3123D0082DAEE /* ContentView.swift */,
+				E772630C25D3123E0082DAEE /* Assets.xcassets */,
+				E772631125D3123E0082DAEE /* LaunchScreen.storyboard */,
+				E772631425D3123E0082DAEE /* Info.plist */,
+				E772630925D3123D0082DAEE /* ShimmeringEffect.xcdatamodeld */,
+				E772630E25D3123E0082DAEE /* Preview Content */,
+			);
+			path = ShimmeringEffect;
+			sourceTree = "<group>";
+		};
+		E772630E25D3123E0082DAEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E772630F25D3123E0082DAEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E772631C25D3123E0082DAEE /* ShimmeringEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				E772631D25D3123E0082DAEE /* ShimmeringEffectTests.swift */,
+				E772631F25D3123E0082DAEE /* Info.plist */,
+			);
+			path = ShimmeringEffectTests;
+			sourceTree = "<group>";
+		};
+		E772632725D3123E0082DAEE /* ShimmeringEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E772632825D3123E0082DAEE /* ShimmeringEffectUITests.swift */,
+				E772632A25D3123E0082DAEE /* Info.plist */,
+			);
+			path = ShimmeringEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77262FF25D3123D0082DAEE /* ShimmeringEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E772632D25D3123E0082DAEE /* Build configuration list for PBXNativeTarget "ShimmeringEffect" */;
+			buildPhases = (
+				E77262FC25D3123D0082DAEE /* Sources */,
+				E77262FD25D3123D0082DAEE /* Frameworks */,
+				E77262FE25D3123D0082DAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShimmeringEffect;
+			productName = ShimmeringEffect;
+			productReference = E772630025D3123D0082DAEE /* ShimmeringEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E772631825D3123E0082DAEE /* ShimmeringEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E772633025D3123E0082DAEE /* Build configuration list for PBXNativeTarget "ShimmeringEffectTests" */;
+			buildPhases = (
+				E772631525D3123E0082DAEE /* Sources */,
+				E772631625D3123E0082DAEE /* Frameworks */,
+				E772631725D3123E0082DAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E772631B25D3123E0082DAEE /* PBXTargetDependency */,
+			);
+			name = ShimmeringEffectTests;
+			productName = ShimmeringEffectTests;
+			productReference = E772631925D3123E0082DAEE /* ShimmeringEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E772632325D3123E0082DAEE /* ShimmeringEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E772633325D3123E0082DAEE /* Build configuration list for PBXNativeTarget "ShimmeringEffectUITests" */;
+			buildPhases = (
+				E772632025D3123E0082DAEE /* Sources */,
+				E772632125D3123E0082DAEE /* Frameworks */,
+				E772632225D3123E0082DAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E772632625D3123E0082DAEE /* PBXTargetDependency */,
+			);
+			name = ShimmeringEffectUITests;
+			productName = ShimmeringEffectUITests;
+			productReference = E772632425D3123E0082DAEE /* ShimmeringEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77262F825D3123D0082DAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E77262FF25D3123D0082DAEE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E772631825D3123E0082DAEE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E77262FF25D3123D0082DAEE;
+					};
+					E772632325D3123E0082DAEE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E77262FF25D3123D0082DAEE;
+					};
+				};
+			};
+			buildConfigurationList = E77262FB25D3123D0082DAEE /* Build configuration list for PBXProject "ShimmeringEffect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77262F725D3123D0082DAEE;
+			productRefGroup = E772630125D3123D0082DAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77262FF25D3123D0082DAEE /* ShimmeringEffect */,
+				E772631825D3123E0082DAEE /* ShimmeringEffectTests */,
+				E772632325D3123E0082DAEE /* ShimmeringEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77262FE25D3123D0082DAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E772631325D3123E0082DAEE /* LaunchScreen.storyboard in Resources */,
+				E772631025D3123E0082DAEE /* Preview Assets.xcassets in Resources */,
+				E772630D25D3123E0082DAEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E772631725D3123E0082DAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E772632225D3123E0082DAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77262FC25D3123D0082DAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E772630425D3123D0082DAEE /* AppDelegate.swift in Sources */,
+				E772630B25D3123D0082DAEE /* ShimmeringEffect.xcdatamodeld in Sources */,
+				E772630625D3123D0082DAEE /* SceneDelegate.swift in Sources */,
+				E772630825D3123D0082DAEE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E772631525D3123E0082DAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E772631E25D3123E0082DAEE /* ShimmeringEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E772632025D3123E0082DAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E772632925D3123E0082DAEE /* ShimmeringEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E772631B25D3123E0082DAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77262FF25D3123D0082DAEE /* ShimmeringEffect */;
+			targetProxy = E772631A25D3123E0082DAEE /* PBXContainerItemProxy */;
+		};
+		E772632625D3123E0082DAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77262FF25D3123D0082DAEE /* ShimmeringEffect */;
+			targetProxy = E772632525D3123E0082DAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E772631125D3123E0082DAEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E772631225D3123E0082DAEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E772632B25D3123E0082DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E772632C25D3123E0082DAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E772632E25D3123E0082DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShimmeringEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShimmeringEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.ShimmeringEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E772632F25D3123E0082DAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShimmeringEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShimmeringEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.ShimmeringEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E772633125D3123E0082DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				INFOPLIST_FILE = ShimmeringEffectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.ShimmeringEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShimmeringEffect.app/ShimmeringEffect";
+			};
+			name = Debug;
+		};
+		E772633225D3123E0082DAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				INFOPLIST_FILE = ShimmeringEffectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.ShimmeringEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShimmeringEffect.app/ShimmeringEffect";
+			};
+			name = Release;
+		};
+		E772633425D3123E0082DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				INFOPLIST_FILE = ShimmeringEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.ShimmeringEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShimmeringEffect;
+			};
+			name = Debug;
+		};
+		E772633525D3123E0082DAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				INFOPLIST_FILE = ShimmeringEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.ShimmeringEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShimmeringEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77262FB25D3123D0082DAEE /* Build configuration list for PBXProject "ShimmeringEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E772632B25D3123E0082DAEE /* Debug */,
+				E772632C25D3123E0082DAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E772632D25D3123E0082DAEE /* Build configuration list for PBXNativeTarget "ShimmeringEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E772632E25D3123E0082DAEE /* Debug */,
+				E772632F25D3123E0082DAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E772633025D3123E0082DAEE /* Build configuration list for PBXNativeTarget "ShimmeringEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E772633125D3123E0082DAEE /* Debug */,
+				E772633225D3123E0082DAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E772633325D3123E0082DAEE /* Build configuration list for PBXNativeTarget "ShimmeringEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E772633425D3123E0082DAEE /* Debug */,
+				E772633525D3123E0082DAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E772630925D3123D0082DAEE /* ShimmeringEffect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E772630A25D3123D0082DAEE /* ShimmeringEffect.xcdatamodel */,
+			);
+			currentVersion = E772630A25D3123D0082DAEE /* ShimmeringEffect.xcdatamodel */;
+			path = ShimmeringEffect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E77262F825D3123D0082DAEE /* Project object */;
+}
